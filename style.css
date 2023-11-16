@@ -1,0 +1,54 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7rem;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    background-image: url("/img/banner.png");
+}
+
+h1, p {
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+p:hover {
+    color: aqua;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: transparent;
+    transition: .8s ease;
+}
+
+section {
+    color: white;
+    background: transparent;
+    width: 25rem;
+    height: 30rem;
+    border: none;
+    margin: 0 auto;
+    transition: .4s ease;
+}
+
+section:hover{
+    background-color: transparent;
+    color: aqua;
+    border: 10px solid rgb(0, 0, 0);
+    transition: .5s ease;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+button:hover{
+    background-color: transparent;
+    color: aqua;
+    border: 2px solid white;
+    transition: .5s ease;
+}
